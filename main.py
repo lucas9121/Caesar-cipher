@@ -30,7 +30,7 @@ while should_continue:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
     text = input("Type your message:\n")
     shift = int(input("Type the shift number:\n"))
-    shift = shift
+    # shift = shift
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
     again = input("Type 'yes' if you want to go again. Otherwise, type 'no'.").lower()
     if again == "no":
